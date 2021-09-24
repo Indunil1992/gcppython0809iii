@@ -1,0 +1,132 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b5924c53-e454-4cf6-94d4-583e8d59ff85": {
+        "id": "b5924c53-e454-4cf6-94d4-583e8d59ff85",
+        "parent": null,
+        "name": "gcppython0809-indu.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gcppython0809-indu.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 19
+        },
+        "config": {
+          "runtime": "python37",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "gcppython0809-indu"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1632466113331,
+        "testCases": {
+          "1219f971-674a-442f-9b6b-4468ffbc5753": {
+            "id": "1219f971-674a-442f-9b6b-4468ffbc5753",
+            "name": "Test event",
+            "functionId": "b5924c53-e454-4cf6-94d4-583e8d59ff85",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "aa7f886a-8265-4e9b-b0d1-e6689bd31dd3": {
+        "id": "aa7f886a-8265-4e9b-b0d1-e6689bd31dd3",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js",
+        "lastUpdated": 1632466090130
+      },
+      "20d56511-cc4e-4a0a-8f53-63f5127dc126": {
+        "id": "20d56511-cc4e-4a0a-8f53-63f5127dc126",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py",
+        "lastUpdated": 1632466081204
+      },
+      "9daef554-8e9a-4734-b07e-4e9f58613a97": {
+        "id": "9daef554-8e9a-4734-b07e-4e9f58613a97",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt",
+        "lastUpdated": 1632466091998
+      }
+    },
+    "openFiles": [
+      "b5924c53-e454-4cf6-94d4-583e8d59ff85",
+      "20d56511-cc4e-4a0a-8f53-63f5127dc126",
+      "aa7f886a-8265-4e9b-b0d1-e6689bd31dd3",
+      "9daef554-8e9a-4734-b07e-4e9f58613a97"
+    ],
+    "currentFileId": "b5924c53-e454-4cf6-94d4-583e8d59ff85",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "Deployment Manager",
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "numpy": {
+          "name": "numpy",
+          "version": "1.21.2",
+          "dev": false,
+          "language": "python"
+        },
+        "google-cloud-storage": {
+          "name": "google-cloud-storage",
+          "version": "1.42.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.4",
+    "projectName": "gcppython0809",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1632467384945
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gcppython0809iii",
+      "url": "https://github.com/Indunil1992/gcppython0809iii"
+    }
+  }
+}
